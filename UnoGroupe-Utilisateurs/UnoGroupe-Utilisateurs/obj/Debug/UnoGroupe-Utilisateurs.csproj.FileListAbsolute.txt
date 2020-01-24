@@ -1,0 +1,11 @@
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\bin\Debug\UnoGroupe-Utilisateurs.exe.config
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\bin\Debug\UnoGroupe-Utilisateurs.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\bin\Debug\UnoGroupe-Utilisateurs.pdb
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe-Utilisateurs.csprojAssemblyReference.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe_Utilisateurs.Form1.resources
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe_Utilisateurs.Properties.Resources.resources
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe-Utilisateurs.csproj.GenerateResource.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe-Utilisateurs.csproj.CoreCompileInputs.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe-Utilisateurs.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe-Utilisateurs.pdb
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\UnoGroupe-Utilisateurs\UnoGroupe-Utilisateurs\obj\Debug\UnoGroupe_Utilisateurs.Form2.resources
