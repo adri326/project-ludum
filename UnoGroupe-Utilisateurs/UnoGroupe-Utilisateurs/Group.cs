@@ -37,22 +37,27 @@ namespace UnoGroupe_Utilisateurs
         public bool AddPlayer(Friend newPlayer)
         {
             if (groupFriends.Count < MAX_PLAYER) {
-                groupFriends.Add(newPlayer);
-                groupDate.Add(DateTime.Now);
-                return true;
+
+                foreach (Friend friend in groupFriends)
+                {
+                    if (newPlayer.Pseudo == friend.Pseudo)
+                    {
+                        return false;
+                    }
+                }
+                
+                    groupFriends.Add(newPlayer);
+                    groupDate.Add(DateTime.Now);
+                    return true;
+                
             }
             return false;
         }
 
-        public bool DeletePlayer(int indexDeletePlayer)
+        public void DeletePlayer(int indexDeletePlayer)
         {
-            if (groupFriends.Count > MIN_PLAYER)
-            {
                 groupFriends.RemoveAt(indexDeletePlayer);
                 groupDate.RemoveAt(indexDeletePlayer);
-                return true;
-            }
-            return false;
         }
 
         public List<Friend> SeeFriends()

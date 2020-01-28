@@ -24,15 +24,15 @@ namespace UnoGroupe_Utilisateurs
             secondForm = _secondForm;
             secondForm.firstForm = this;
 
-            friends.AddFriend(new Friend("Jeremy"));
-            friends.AddFriend(new Friend("Ethonoz"));
-            friends.AddFriend(new Friend("Boris"));
-            friends.AddFriend(new Friend("Arthur"));
-            friends.AddFriend(new Friend("Théo"));
-            friends.AddFriend(new Friend("Dieudone"));
+            friends.AddFriend(new Friend("ami1"));
+            friends.AddFriend(new Friend("ami2"));
+            friends.AddFriend(new Friend("ami3"));
+            friends.AddFriend(new Friend("ami4"));
+            friends.AddFriend(new Friend("ami5"));
+            friends.AddFriend(new Friend("ami6"));
 
-            groups.AddGroup("mesAmisAMoi",friends.SeeFriend("Arthur"),friends.SeeFriend("Boris") );
-            groups.AddGroup("PasMesAmis",friends.SeeFriend("Théo"),friends.SeeFriend("Jeremy"),friends.SeeFriend("Ethonoz"));
+            groups.AddGroup("group1",friends.SeeFriend("ami1"),friends.SeeFriend("ami2") );
+            groups.AddGroup("group2",friends.SeeFriend("ami3"),friends.SeeFriend("ami4"),friends.SeeFriend("ami1"));
 
 
 
@@ -42,6 +42,7 @@ namespace UnoGroupe_Utilisateurs
         {
             lstFriends.Items.Clear();
             lstGroups.Items.Clear();
+            lstFriendsOfGroup.Items.Clear();
             foreach (Friend friend in friends.SeeFriend())
             {
                 lstFriends.Items.Add(friend.Pseudo);
@@ -56,12 +57,12 @@ namespace UnoGroupe_Utilisateurs
         private void lstGroups_SelectedIndexChanged(object sender, EventArgs e)
         {
             lstFriendsOfGroup.Items.Clear();
-
-            foreach (Friend friend in groups.SeeGroup()[lstGroups.SelectedIndex].SeeFriends())
-            {
-                lstFriendsOfGroup.Items.Add(friend.Pseudo);
+            if (lstGroups.SelectedIndex != -1) {
+                foreach (Friend friend in groups.SeeGroup()[lstGroups.SelectedIndex].SeeFriends())
+                {
+                    lstFriendsOfGroup.Items.Add(friend.Pseudo);
+                }
             }
-
         }
 
         private void btnAddFriend_Click(object sender, EventArgs e)
@@ -93,6 +94,44 @@ namespace UnoGroupe_Utilisateurs
         private void btnAddGroup_Click(object sender, EventArgs e)
         {
             secondForm.Start();
+        }
+
+        private void btnDelGroup_Click(object sender, EventArgs e)
+        {
+            if (lstGroups.SelectedIndex != -1)
+            {
+                groups.DeleteGroup(lstGroups.SelectedIndex);
+            }
+            lstFriendsOfGroup.Items.Clear();
+            lstGroups.Items.Clear();
+            foreach (Group group in groups.SeeGroup())
+            {
+                lstGroups.Items.Add(group.Name);
+            }
+        }
+        private void btnAddFriendInGroup_Click(object sender, EventArgs e)
+        {
+            if (lstFriends.SelectedIndex != -1 && lstGroups.SelectedIndex != -1) {
+                groups.SeeGroup()[lstGroups.SelectedIndex].AddPlayer(friends.SeeFriend()[lstFriends.SelectedIndex]);
+            }
+            lstFriendsOfGroup.Items.Clear();
+            foreach (Friend friend in groups.SeeGroup()[lstGroups.SelectedIndex].SeeFriends())
+            {
+                lstFriendsOfGroup.Items.Add(friend.Pseudo);
+            }
+        }
+
+        private void btnDelFriendInGroup_Click(object sender, EventArgs e)
+        {
+            if (lstFriendsOfGroup.SelectedIndex != -1 && lstGroups.SelectedIndex != -1)
+            {
+                groups.SeeGroup()[lstGroups.SelectedIndex].DeletePlayer(lstFriendsOfGroup.SelectedIndex);
+            }
+            lstFriendsOfGroup.Items.Clear();
+            foreach (Friend friend in groups.SeeGroup()[lstGroups.SelectedIndex].SeeFriends())
+            {
+                lstFriendsOfGroup.Items.Add(friend.Pseudo);
+            }
         }
     }
 }

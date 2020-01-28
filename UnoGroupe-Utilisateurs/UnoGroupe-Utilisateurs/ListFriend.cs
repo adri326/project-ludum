@@ -14,7 +14,20 @@ namespace UnoGroupe_Utilisateurs
 
         public void AddFriend(Friend newFriend)
         {
-            friends.Add(newFriend);
+            bool error = false;
+            foreach (Friend friend in friends)
+            {
+                if (friend.Pseudo == newFriend.Pseudo)
+                {
+                    error = true;
+                }
+            }
+            if (!error)
+            {
+                friends.Add(newFriend);
+            }
+                
+            
         }
 
         public void DeleteFriend(int indexDeleteFriend)

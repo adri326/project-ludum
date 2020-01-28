@@ -49,6 +49,7 @@
             this.lstFriend.Name = "lstFriend";
             this.lstFriend.Size = new System.Drawing.Size(120, 95);
             this.lstFriend.TabIndex = 1;
+            this.lstFriend.SelectedIndexChanged += new System.EventHandler(this.lstFriend_SelectedIndexChanged);
             // 
             // lstAddFriend
             // 
@@ -57,6 +58,7 @@
             this.lstAddFriend.Name = "lstAddFriend";
             this.lstAddFriend.Size = new System.Drawing.Size(120, 95);
             this.lstAddFriend.TabIndex = 2;
+            this.lstAddFriend.SelectedIndexChanged += new System.EventHandler(this.lstAddFriend_SelectedIndexChanged);
             // 
             // btnAdd
             // 

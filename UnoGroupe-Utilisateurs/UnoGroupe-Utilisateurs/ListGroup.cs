@@ -25,9 +25,9 @@ namespace UnoGroupe_Utilisateurs
                 groups.Add(new Group(name, listFriend));
             }
         }
-        public void DeleteGroup(Group groupRemoved)
+        public void DeleteGroup(int groupRemoved)
         {
-            groups.Remove(groupRemoved);
+            groups.RemoveAt(groupRemoved);
         }
 
         public List<Group> SeeGroup()

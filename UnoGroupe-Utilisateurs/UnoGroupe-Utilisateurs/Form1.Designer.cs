@@ -85,6 +85,7 @@
             this.btnDelFriendInGroup.TabIndex = 4;
             this.btnDelFriendInGroup.Text = "button2";
             this.btnDelFriendInGroup.UseVisualStyleBackColor = true;
+            this.btnDelFriendInGroup.Click += new System.EventHandler(this.btnDelFriendInGroup_Click);
             // 
             // btnAddFriendInGroup
             // 
@@ -94,6 +95,7 @@
             this.btnAddFriendInGroup.TabIndex = 5;
             this.btnAddFriendInGroup.Text = "button3";
             this.btnAddFriendInGroup.UseVisualStyleBackColor = true;
+            this.btnAddFriendInGroup.Click += new System.EventHandler(this.btnAddFriendInGroup_Click);
             // 
             // btnDelGroup
             // 
@@ -103,6 +105,7 @@
             this.btnDelGroup.TabIndex = 6;
             this.btnDelGroup.Text = "button4";
             this.btnDelGroup.UseVisualStyleBackColor = true;
+            this.btnDelGroup.Click += new System.EventHandler(this.btnDelGroup_Click);
             // 
             // btnAddGroup
             // 
