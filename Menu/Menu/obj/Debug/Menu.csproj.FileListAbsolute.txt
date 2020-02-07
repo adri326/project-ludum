@@ -8,3 +8,16 @@ H:\00-Git\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
 H:\00-Git\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
 H:\00-Git\Menu\Menu\obj\Debug\Menu.exe
 H:\00-Git\Menu\Menu\obj\Debug\Menu.pdb
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\bin\Debug\Menu.exe.config
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\bin\Debug\Menu.exe
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\bin\Debug\Menu.pdb
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.csprojAssemblyReference.cache
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.Form1.resources
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.Properties.Resources.resources
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.exe
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.pdb
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\bin\Debug\Resources\FR.resx
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.Resources.EN.resources
+C:\Users\thedipaola\Desktop\project-ludum\Menu\Menu\obj\Debug\Menu.Resources.FR.resources
