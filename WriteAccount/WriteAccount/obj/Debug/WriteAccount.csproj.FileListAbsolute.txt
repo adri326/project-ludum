@@ -1,0 +1,9 @@
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\bin\Debug\WriteAccount.exe.config
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\bin\Debug\WriteAccount.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\bin\Debug\WriteAccount.pdb
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\obj\Debug\WriteAccount.csprojAssemblyReference.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\obj\Debug\WriteAccount.csproj.CoreCompileInputs.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\obj\Debug\WriteAccount.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\obj\Debug\WriteAccount.pdb
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\bin\Debug\BouncyCastle.Crypto.dll
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\WriteAccount\WriteAccount\obj\Debug\WriteAccount.csproj.CopyComplete
