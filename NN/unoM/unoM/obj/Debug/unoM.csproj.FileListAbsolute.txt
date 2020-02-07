@@ -1,0 +1,14 @@
+C:\Users\adrvillegas\source\repos\unoM\unoM\bin\Debug\unoM.exe.config
+C:\Users\adrvillegas\source\repos\unoM\unoM\bin\Debug\unoM.exe
+C:\Users\adrvillegas\source\repos\unoM\unoM\bin\Debug\unoM.pdb
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.csprojAssemblyReference.cache
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.Properties.Resources.resources
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.Resources.i18n.en.resources
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.Resources.i18n.fr.resources
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.Resources.Images.images.resources
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.View1.resources
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.csproj.GenerateResource.cache
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.csproj.CoreCompileInputs.cache
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.exe
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.pdb
+C:\Users\adrvillegas\source\repos\unoM\unoM\obj\Debug\unoM.Views.StartMenu.resources
