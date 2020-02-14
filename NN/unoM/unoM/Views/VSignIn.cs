@@ -25,8 +25,8 @@ namespace unoM.Views
 
         private void VSignIn_Load(object sender, EventArgs e)
         {
-            this.Location = new Point(0, 0);
-            this.BackColor = Palette1.transparent;
+            this.Location = new Point(1000, 100);
+            this.BackColor = Palette1.brown;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -49,6 +49,11 @@ namespace unoM.Views
                 this.Parent.Controls.Remove(this);
                 myView.StartStartMenu();
             }
+        }
+
+        private void VSignIn_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

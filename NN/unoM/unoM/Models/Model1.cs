@@ -25,21 +25,20 @@ namespace unoM.Models
         public void GetUsersList()
         {
             users = new List<User>();
-            //System.Diagnostics.Process.Start(@"..\\userList.txt");
-            //string[] arrayUsers = File.ReadAllLines("..\\userList.txt");
-            //string[] tempUserInfo = new string[3] { "", "", "" };
-            //int j = 0;
-            //for (int i = 0; i < arrayUsers.Length; ++i)
-            //{
-            //    foreach (char element in arrayUsers[i])
-            //    {
-            //        if (element != ';')
-            //            tempUserInfo[j] += element;
-            //        else
-            //            ++j;
-            //    }
-            //    users.Add(new User(tempUserInfo[0], tempUserInfo[1], tempUserInfo[2]));
-            //}
+            string[] arrayUsers = File.ReadAllLines("..\\userList.txt");            
+            for (int i = 0; i < arrayUsers.Length; ++i)
+            {
+                string[] tempUserInfo = new string[3] { "", "", "" };
+                int j = 0;
+                foreach (char element in arrayUsers[i])
+                {
+                    if (element != ';')
+                        tempUserInfo[j] += element;
+                    else
+                        ++j;
+                }
+                users.Add(new User(tempUserInfo[0], tempUserInfo[1], tempUserInfo[2]));
+            }
         }
 
         static public bool MatchPseudo(string _pseudo)
