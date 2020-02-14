@@ -1,0 +1,7 @@
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\bin\Debug\BlendCard.exe.config
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\bin\Debug\BlendCard.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\bin\Debug\BlendCard.pdb
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\obj\Debug\BlendCard.csprojAssemblyReference.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\obj\Debug\BlendCard.csproj.CoreCompileInputs.cache
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\obj\Debug\BlendCard.exe
+D:\DATA\jonletourneur\ProjetCardGameUno\project-ludum\BlendCard\BlendCard\obj\Debug\BlendCard.pdb
