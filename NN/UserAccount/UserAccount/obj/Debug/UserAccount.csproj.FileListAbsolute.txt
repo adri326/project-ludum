@@ -38,3 +38,17 @@ C:\Users\adrvillegas\Desktop\project-ludum\UserAccount\UserAccount\obj\Debug\Use
 C:\Users\adrvillegas\Desktop\project-ludum\UserAccount\UserAccount\obj\Debug\UserAccount.csproj.CoreCompileInputs.cache
 C:\Users\adrvillegas\Desktop\project-ludum\UserAccount\UserAccount\obj\Debug\UserAccount.exe
 C:\Users\adrvillegas\Desktop\project-ludum\UserAccount\UserAccount\obj\Debug\UserAccount.pdb
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\bin\Debug\UserAccount.exe.config
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\bin\Debug\UserAccount.exe
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\bin\Debug\UserAccount.pdb
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.csprojAssemblyReference.cache
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.RemindPassword.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.SesionSettings.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.SingUp.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.View1.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.LogIn.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.Properties.Resources.resources
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.csproj.GenerateResource.cache
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.csproj.CoreCompileInputs.cache
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.exe
+C:\Users\thedipaola\Desktop\project-ludum\NN\UserAccount\UserAccount\obj\Debug\UserAccount.pdb

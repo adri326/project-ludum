@@ -117,10 +117,91 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="logIn" xml:space="preserve">
-    <value>Login</value>
+  <data name="Bots" xml:space="preserve">
+    <value>Bots</value>
   </data>
-  <data name="signIn" xml:space="preserve">
-    <value>Sign in</value>
+  <data name="Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="CreateAccount" xml:space="preserve">
+    <value>Create an account</value>
+  </data>
+  <data name="DarkMode" xml:space="preserve">
+    <value>Dark Mode</value>
+  </data>
+  <data name="Defeat" xml:space="preserve">
+    <value>Defeat...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Draw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="Friends" xml:space="preserve">
+    <value>Friends</value>
+  </data>
+  <data name="GameHistory" xml:space="preserve">
+    <value>Game History</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="InviteFriend" xml:space="preserve">
+    <value>Invite a friend</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LightMode" xml:space="preserve">
+    <value>Light Mode</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="Multiplayer" xml:space="preserve">
+    <value>Multiplayer</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="Mute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SinglePlayer" xml:space="preserve">
+    <value>Single Player</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Victory" xml:space="preserve">
+    <value>Victory!</value>
   </data>
 </root>
