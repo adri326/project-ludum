@@ -1,6 +1,6 @@
 ﻿namespace unoM.Views
 {
-    partial class StartMenu
+    partial class VMenu
     {
         /// <summary> 
         /// Variable nécessaire au concepteur.
@@ -30,12 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // StartMenu
+            // VMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "StartMenu";
-            this.Load += new System.EventHandler(this.StartMenu_Load);
+            this.Name = "VMenu";
+            this.Size = new System.Drawing.Size(546, 322);
+            this.Load += new System.EventHandler(this.VMenu_Load);
             this.ResumeLayout(false);
 
         }
