@@ -1,0 +1,7 @@
+F:\module\000-scrum\module\main-server\main-server\bin\Debug\main-server.exe.config
+F:\module\000-scrum\module\main-server\main-server\bin\Debug\main-server.exe
+F:\module\000-scrum\module\main-server\main-server\bin\Debug\main-server.pdb
+F:\module\000-scrum\module\main-server\main-server\obj\Debug\main-server.csprojAssemblyReference.cache
+F:\module\000-scrum\module\main-server\main-server\obj\Debug\main-server.csproj.CoreCompileInputs.cache
+F:\module\000-scrum\module\main-server\main-server\obj\Debug\main-server.exe
+F:\module\000-scrum\module\main-server\main-server\obj\Debug\main-server.pdb
