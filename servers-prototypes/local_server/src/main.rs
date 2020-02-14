@@ -87,8 +87,6 @@ fn ask_if_serv_is_up() -> (bool, Option<Ipv4Addr>) {
     (false, None)
 }
 
-fn
-
 fn exit<F: fmt::Display>(msg: F) {
     eprintln!("{}", msg);
     process::exit(1);
