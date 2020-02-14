@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadCast", "BroadCast\BroadCast.csproj", "{68ECC15D-DBC3-4919-A477-F5DD259D3EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68ECC15D-DBC3-4919-A477-F5DD259D3EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68ECC15D-DBC3-4919-A477-F5DD259D3EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68ECC15D-DBC3-4919-A477-F5DD259D3EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68ECC15D-DBC3-4919-A477-F5DD259D3EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC250C3D-253E-4521-B788-5E3E8428A6AD}
+	EndGlobalSection
+EndGlobal

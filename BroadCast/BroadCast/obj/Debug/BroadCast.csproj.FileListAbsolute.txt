@@ -1,0 +1,7 @@
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\bin\Debug\BroadCast.exe.config
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\bin\Debug\BroadCast.exe
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\bin\Debug\BroadCast.pdb
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\obj\Debug\BroadCast.csprojAssemblyReference.cache
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\obj\Debug\BroadCast.csproj.CoreCompileInputs.cache
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\obj\Debug\BroadCast.exe
+C:\Users\noabarberini\Desktop\BroadCast\BroadCast\obj\Debug\BroadCast.pdb
