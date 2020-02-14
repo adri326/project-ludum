@@ -1,0 +1,10 @@
+F:\00-GITS\project-ludum\cardClass\cardClass\bin\Debug\cardClass.exe.config
+F:\00-GITS\project-ludum\cardClass\cardClass\bin\Debug\cardClass.exe
+F:\00-GITS\project-ludum\cardClass\cardClass\bin\Debug\cardClass.pdb
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.csprojAssemblyReference.cache
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.CardDisplay.resources
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.Properties.Resources.resources
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.csproj.GenerateResource.cache
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.csproj.CoreCompileInputs.cache
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.exe
+F:\00-GITS\project-ludum\cardClass\cardClass\obj\Debug\cardClass.pdb
