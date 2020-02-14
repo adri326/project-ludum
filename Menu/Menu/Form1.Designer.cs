@@ -29,130 +29,130 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.option = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnMutiplayer = new System.Windows.Forms.Button();
+            this.btnSingleplayer = new System.Windows.Forms.Button();
+            this.btnGameHistory = new System.Windows.Forms.Button();
+            this.btnFriends = new System.Windows.Forms.Button();
+            this.btnOption = new System.Windows.Forms.Button();
+            this.btnHelp = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnFrench = new System.Windows.Forms.Button();
             this.btnEnglish = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnMutiplayer
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(465, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 80);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Multijoueur";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnMutiplayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnMutiplayer.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnMutiplayer.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnMutiplayer.FlatAppearance.BorderSize = 2;
+            this.btnMutiplayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMutiplayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMutiplayer.ForeColor = System.Drawing.Color.White;
+            this.btnMutiplayer.Location = new System.Drawing.Point(465, 321);
+            this.btnMutiplayer.Name = "btnMutiplayer";
+            this.btnMutiplayer.Size = new System.Drawing.Size(220, 80);
+            this.btnMutiplayer.TabIndex = 0;
+            this.btnMutiplayer.Text = "Multijoueur";
+            this.btnMutiplayer.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnSingleplayer
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(811, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(220, 80);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Solo";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSingleplayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnSingleplayer.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnSingleplayer.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnSingleplayer.FlatAppearance.BorderSize = 2;
+            this.btnSingleplayer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSingleplayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSingleplayer.ForeColor = System.Drawing.Color.White;
+            this.btnSingleplayer.Location = new System.Drawing.Point(811, 159);
+            this.btnSingleplayer.Name = "btnSingleplayer";
+            this.btnSingleplayer.Size = new System.Drawing.Size(220, 80);
+            this.btnSingleplayer.TabIndex = 1;
+            this.btnSingleplayer.Text = "Solo";
+            this.btnSingleplayer.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnGameHistory
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1211, 618);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(220, 80);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Historique";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnGameHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnGameHistory.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnGameHistory.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnGameHistory.FlatAppearance.BorderSize = 2;
+            this.btnGameHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGameHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGameHistory.ForeColor = System.Drawing.Color.White;
+            this.btnGameHistory.Location = new System.Drawing.Point(1211, 618);
+            this.btnGameHistory.Name = "btnGameHistory";
+            this.btnGameHistory.Size = new System.Drawing.Size(220, 80);
+            this.btnGameHistory.TabIndex = 2;
+            this.btnGameHistory.Text = "Historique";
+            this.btnGameHistory.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnFriends
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(1211, 321);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(220, 80);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Amis";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnFriends.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnFriends.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnFriends.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFriends.FlatAppearance.BorderSize = 2;
+            this.btnFriends.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFriends.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFriends.ForeColor = System.Drawing.Color.White;
+            this.btnFriends.Location = new System.Drawing.Point(1211, 321);
+            this.btnFriends.Name = "btnFriends";
+            this.btnFriends.Size = new System.Drawing.Size(220, 80);
+            this.btnFriends.TabIndex = 3;
+            this.btnFriends.Text = "Amis";
+            this.btnFriends.UseVisualStyleBackColor = false;
             // 
-            // option
+            // btnOption
             // 
-            this.option.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.option.Cursor = System.Windows.Forms.Cursors.Default;
-            this.option.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.option.FlatAppearance.BorderSize = 2;
-            this.option.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.option.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option.ForeColor = System.Drawing.Color.White;
-            this.option.Location = new System.Drawing.Point(451, 618);
-            this.option.Name = "option";
-            this.option.Size = new System.Drawing.Size(220, 80);
-            this.option.TabIndex = 4;
-            this.option.Text = "Option";
-            this.option.UseVisualStyleBackColor = false;
-            this.option.Click += new System.EventHandler(this.option_Click);
+            this.btnOption.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnOption.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnOption.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnOption.FlatAppearance.BorderSize = 2;
+            this.btnOption.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOption.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOption.ForeColor = System.Drawing.Color.White;
+            this.btnOption.Location = new System.Drawing.Point(451, 618);
+            this.btnOption.Name = "btnOption";
+            this.btnOption.Size = new System.Drawing.Size(220, 80);
+            this.btnOption.TabIndex = 4;
+            this.btnOption.Text = "Option";
+            this.btnOption.UseVisualStyleBackColor = false;
+            this.btnOption.Click += new System.EventHandler(this.option_Click);
             // 
-            // button6
+            // btnHelp
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(12, 970);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(220, 80);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Help";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnHelp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnHelp.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnHelp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnHelp.FlatAppearance.BorderSize = 2;
+            this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.ForeColor = System.Drawing.Color.White;
+            this.btnHelp.Location = new System.Drawing.Point(12, 970);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(220, 80);
+            this.btnHelp.TabIndex = 5;
+            this.btnHelp.Text = "Help";
+            this.btnHelp.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnExit
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
-            this.button7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button7.FlatAppearance.BorderSize = 2;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(811, 835);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(220, 80);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Quitter";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(236)))));
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnExit.FlatAppearance.BorderSize = 2;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(811, 835);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(220, 80);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Quitter";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnFrench
             // 
@@ -201,13 +201,13 @@
             this.ClientSize = new System.Drawing.Size(1904, 1062);
             this.Controls.Add(this.btnEnglish);
             this.Controls.Add(this.btnFrench);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.option);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnGameHistory);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnHelp);
+            this.Controls.Add(this.btnOption);
+            this.Controls.Add(this.btnFriends);
+            this.Controls.Add(this.btnSingleplayer);
+            this.Controls.Add(this.btnMutiplayer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -218,13 +218,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button option;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnMutiplayer;
+        private System.Windows.Forms.Button btnSingleplayer;
+        private System.Windows.Forms.Button btnGameHistory;
+        private System.Windows.Forms.Button btnFriends;
+        private System.Windows.Forms.Button btnOption;
+        private System.Windows.Forms.Button btnHelp;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnFrench;
         private System.Windows.Forms.Button btnEnglish;
     }

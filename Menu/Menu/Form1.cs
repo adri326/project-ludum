@@ -11,16 +11,16 @@ namespace Menu
         public Form1()
         {
             InitializeComponent();
-            //affichage des textes selons la langue choisie
+            //affichage des textes selon la langue choisie
             ChangeLanguage("FR");
-
-           
-           
-            
         }
-       private void ChangeLanguage(string langue)
+        /// <summary> 
+        /// change le texte des boutons selon la langue choisie 
+        /// </summary>
+        /// <param name="langue">langue choisie (soit FR ou EN)</param>
+        private void ChangeLanguage(string langue)
         {
-            //change la langue //
+
             switch (langue)
             {
                 case "FR":
@@ -32,20 +32,21 @@ namespace Menu
                 default:
                     break;
             }
-            button1.Text = rm.GetString("Multiplayer");
-            button2.Text = rm.GetString("SinglePlayer");
-            button3.Text = rm.GetString("GameHistory");
-            button4.Text = rm.GetString("Friends");
-            button6.Text = rm.GetString("Help");
-            button7.Text = rm.GetString("Exit");
+            
+
+            //boutons concernés par le changement de langue//
+            btnMutiplayer.Text = rm.GetString("Multiplayer");
+            btnSingleplayer.Text = rm.GetString("SinglePlayer");
+            btnGameHistory.Text = rm.GetString("GameHistory");
+            btnFriends.Text = rm.GetString("Friends");
+            btnHelp.Text = rm.GetString("Help");
+            btnExit.Text = rm.GetString("Exit");
         }
 
-        
+
         private void option_Click(object sender, EventArgs e)
         {
             Panel option = new Panel();
-            
-
         }
 
         private void btnFrench_Click(object sender, EventArgs e)
@@ -55,7 +56,6 @@ namespace Menu
 
         private void btnEnglish_Click(object sender, EventArgs e)
         {
-           
             ChangeLanguage("EN");
         }
 
