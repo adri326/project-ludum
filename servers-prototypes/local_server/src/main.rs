@@ -8,6 +8,14 @@ use std::{
         PathBuf
     }
 };
+
+const BROADCAST_IP: &str = "10.228.157.255:7878"; // ETML's broadcast ip
+const ARE_YOU_UP_SIGNAL: [u8; 1] = [5]; // Enquiry Control Character ( https://en.wikipedia.org/wiki/Enquiry_character )
+const IM_UP_SIGNAL: [u8; 1] = [6]; // Acknowledgement Control Character ( https://en.wikipedia.org/wiki/Acknowledgement_(data_networks) )
+const SERVER_UP_SIGNAL: [u8; 2] = [6, 0];
+const SERVER_DOWN_SIGNAL: [u8; 2] = [6, 1];
+const USER_INTERFACE_IP: &str = "127.0.0.1:7879";
+
 fn main() {
     let mut game_dir_path = PathBuf::new();
     game_dir_path.push(r"C:\");
@@ -18,6 +26,9 @@ fn main() {
     let config_file_raw;
     let mut game_path;
     let game_path_attr = "GamePath:";
+    let mut server_ip;
+    let local_udp = UdpSocket::bind("127.0.0.1:7878").unwrap(); // Warning: Err variant not catched
+    local_udp.connect(USER_INTERFACE_IP).unwrap(); // Warning: Err variant not catched
 
     // Checks if the game directory exists and creates the missing director(y/ies) if they don't exists
     fs::create_dir_all(&game_dir_path); // Warning here about not using the Result ouput
@@ -54,7 +65,29 @@ fn main() {
     }
 
     process::Command::new(game_path).output(); // Warning here about not using the Result ouput
+
+    let (is_up, server_addr) = ask_if_serv_is_up();
+    if is_up {
+        server_ip = server_addr.unwrap();
+        local_udp.send(&SERVER_UP_SIGNAL);
+    } else {
+        local_udp.send(&SERVER_DOWN_SIGNAL);
+    }
 }
+
+fn ask_if_serv_is_up() -> (bool, Option<Ipv4Addr>) {
+    let upd = UpdSocket::bind("127.0.0.1:7878").unwrap(); // Warning: Err variant not catched
+    udp.connect(BROADCAST_IP).unwrap(); // Same
+    udp.send(&ARE_YOU_UP_SIGNAL); // Warning here about not using the Result ouput
+    let mut buf = [0; 1];
+    let (len, src_sckt) = udp.recv_from(&mut buf).unwrap(); // Warning: Err variant not catched
+    if len == 1 && buf == IM_UP_SIGNAL {
+        return (true, Some(src_sckt));
+    }
+    (false, None)
+}
+
+fn
 
 fn exit<F: fmt::Display>(msg: F) {
     eprintln!("{}", msg);
